@@ -1,0 +1,16 @@
+{
+  "name": "douban-pick",
+  "version": "0.1.0",
+  "description": "主页筛选好友消息",
+  "icons": { " ": " " },
+  "background": {
+    "persistent": false,
+    "scripts": [" "]
+  },
+  "permissions": [" ", " "],
+  "browser_action": {
+    "default_title": "",
+    "default_icon": "icon_19.png",
+    "default_popup": "popup.html"
+  }
+}
