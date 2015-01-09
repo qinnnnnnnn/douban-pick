@@ -2,6 +2,17 @@
   "name": "douban-pick",
   "version": "0.1.0",
   "description": "主页筛选好友消息",
+  "content_scripts":[
+    {
+      "matches": [
+      "http://www.douban.com/",
+      "https://www.douban.com/"
+      ],
+      "js": ["main.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
   "icons": { " ": " " },
   "background": {
     "persistent": false,
@@ -9,8 +20,15 @@
   },
   "permissions": [" ", " "],
   "browser_action": {
-    "default_title": "",
+    "default_title": "douban-pick",
     "default_icon": "icon_19.png",
     "default_popup": "popup.html"
-  }
+  },
+  "icons": {
+    "32": "icon_32_32.png",
+    "64": "icon_64_64.png",
+    "128": "icon_128_128.png"
+  },
+  "background_page": "background.html",
+  "popup": "popup.html"
 }
