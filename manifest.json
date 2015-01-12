@@ -19,7 +19,7 @@
   "content_scripts": [
     {
       "matches": ["http://www.douban.com/*"],
-      "js" : ["jquery.min.js", "contentscript.js"],
+      "js" : ["jquery.min.js", "contentscript.js", "demo.js"],
       "css" : [""]
     }
   ],
