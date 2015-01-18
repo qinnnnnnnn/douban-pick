@@ -23,5 +23,6 @@
       "matches": ["http://www.douban.com/*"],
       "js" : ["jquery.min.js", "contentscript.js"]
     }
-  ]
+  ],
+  "options_page": "options.html"
 }
