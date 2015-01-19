@@ -1,0 +1,26 @@
+{
+  "name": "douban-pick",
+  "version": "1.0.0",
+  "description": "douban pick",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qinnnnnnnn/douban-pick.git"
+  },
+  "keywords": [
+    "douban"
+  ],
+  "author": "qin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qinnnnnnnn/douban-pick/issues"
+  },
+  "homepage": "https://github.com/qinnnnnnnn/douban-pick",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-stylus": "^2.0.0"
+  }
+}

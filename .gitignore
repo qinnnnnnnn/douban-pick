@@ -1,0 +1,12 @@
+node_modules
+config_migrant.py
+.anvil
+.DS_Store
+.idea
+config.yml
+*.psd
+*.pyc
+*.sh
+*.log
+venv
+nohup.out
