@@ -6,6 +6,8 @@
   "version": "0.1.0",
 
   "permissions": [
+    "tabs", 
+    "notifications",
     "http://www.douban.com/*",
     "http://api.douban.com/*"
   ],
@@ -24,6 +26,5 @@
       "js" : ["js/jquery.min.js", "js/contentscript.js"]
     }
   ],
-  "options_page": "html/options.html",
-  "background_page" : "html/background.html"
+  "options_page": "html/options.html"
 }

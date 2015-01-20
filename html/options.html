@@ -7,9 +7,17 @@
 	</head>
 	<body>
 		<h2>豆瓣(Douban)主页好友分组信息筛选:插件设置</h2>
-		<hr/>
-		<h3>第一步</h3>
+		<hr>
+		<h3>第一步(非必选项)</h3>
+		<div>API Key：<input type="text" id="apikey"></div>
+		<p>在<a href="http://www.douban.com/service/apikey/apply">此页</a>申请api key,可以提高插件访问速度。</p>
 		<h3>第二步</h3>
-		<h3>第三步</h3>
+		<div>我的豆瓣域名：<input type="text" id="username"></div>
+		<p>在<a href="http://www.douban.com/accounts/">此页</a>之后查看“我的域名”，为字母或者为数字。</p>
+		<button disabled="disabled">保存</button>
+		<button>取消</button>
+		<h3>其他</h3>
+		<p>如果本地保存数量太多，也许会超出浏览器限制的容量。在这种情况请点击“清空”并减少电影栏显示的朋友数量，然后重新保存</p>
+		<button>清空本地存储</button>
 	</body>
 </html>
